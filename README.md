@@ -95,7 +95,17 @@ This project provides a comprehensive analysis of volatility dynamics, spillover
 
 ### Interactive Analysis
 
-For interactive analysis, you can create your own Jupyter notebook in the `notebooks/` directory or run the individual Python scripts step by step.
+Use the Jupyter notebook for interactive exploration:
+```bash
+cd notebooks/
+jupyter notebook garch_interactive_analysis.ipynb
+```
+
+The notebook provides:
+- Interactive data visualization
+- Step-by-step analysis walkthrough
+- Access to all GARCH results
+- Custom analysis playground
 
 ### Expected Outputs
 
@@ -126,8 +136,8 @@ garch/
 │   ├── granger_causality.py          # Granger causality testing
 │   ├── spillover_analysis.py         # Spillover effects analysis
 │   └── model_diagnostics.py          # Model validation and diagnostics
-├── notebooks/                         # Jupyter notebooks (create your own)
-│   └── (empty - add your own analysis notebooks here)
+├── notebooks/                         # Jupyter notebooks
+│   └── garch_interactive_analysis.ipynb  # Interactive analysis notebook
 ├── figures/                           # Generated plots and tables
 │   ├── price_levels.png              # Price level plots
 │   ├── log_returns.png               # Returns time series
