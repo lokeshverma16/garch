@@ -95,10 +95,7 @@ This project provides a comprehensive analysis of volatility dynamics, spillover
 
 ### Interactive Analysis
 
-Use the Jupyter notebook for step-by-step analysis:
-```bash
-jupyter notebook notebooks/complete_analysis.ipynb
-```
+For interactive analysis, you can create your own Jupyter notebook in the `notebooks/` directory or run the individual Python scripts step by step.
 
 ### Expected Outputs
 
@@ -129,8 +126,8 @@ garch/
 │   ├── granger_causality.py          # Granger causality testing
 │   ├── spillover_analysis.py         # Spillover effects analysis
 │   └── model_diagnostics.py          # Model validation and diagnostics
-├── notebooks/                         # Jupyter notebooks
-│   └── complete_analysis.ipynb       # Interactive analysis workflow
+├── notebooks/                         # Jupyter notebooks (create your own)
+│   └── (empty - add your own analysis notebooks here)
 ├── figures/                           # Generated plots and tables
 │   ├── price_levels.png              # Price level plots
 │   ├── log_returns.png               # Returns time series
